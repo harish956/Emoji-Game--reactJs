@@ -1,0 +1,23 @@
+/* Write your code here. */
+.main-bg-container {
+  background-image: linear-gradient(to right, #6a59ff, #9796f0, #fbc7d4);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+.emoji-container {
+  list-style-type: none;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+.image-card-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

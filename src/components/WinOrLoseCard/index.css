@@ -1,0 +1,49 @@
+/* Write your code here. */
+.win-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: solid 0.5px #ffffff30;
+  margin-top: 10%;
+  width: 40%;
+  height: 70%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0,
+    #ffffff33,
+    #fbc7d4
+  );
+}
+.image {
+  height: 80%;
+  width: 250px;
+}
+.win-text-container {
+  text-align: center;
+}
+.text {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.points {
+  font-size: 30px;
+  color: #6a59ff;
+}
+.score-text {
+  font-size: 25px;
+}
+.greeting {
+  font-size: 45px;
+}
+.button {
+  background-color: #ffce27;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 10px;
+  padding: 10px;
+}
